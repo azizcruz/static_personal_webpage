@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css"> </head>
+
+<body>
+    <!--Start Header-->
+    <div class="goTop" id="goTop"><i class="fa fa-arrow-up"></i></div>
+    <header>
+        <div class="overlay">
+            <div class="container">
+                <!-- Header For small screens -->
+                <div class="visible-xs-block visible-sm-block">
+                    <nav>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="navbar-brand center-block" style="width: 120px; float: none; margin-top: 20px; margin-bottom: 30px;"><span style="color: #B27E3D;">Az</span>iz</div>
+                            </div>
+                            <div class="col-xs-12">
+                                <ul class="navigation list-inline list-unstyled text-center">
+                                    <li class="active">About</li>
+                                    <li data-value="port">Portfolio</li>
+                                    <li data-value="cont">Contact</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <section>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="personal-img-small"> <img src="images/02.jpeg" alt="profile image" class="img-thumbnail img-responsive center-block"> </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="box-info-small">
+                                    <ul class="list-unstyled">
+                                        <li><span>Name & Surname</span>: Abdelaziz Abdelioua</li>
+                                        <li><span>Job</span>: Student</li>
+                                        <li><span>Field</span>: Information Technology</li>
+                                        <li><span>About me</span>
+                                            <p class="text-justify">Back-end web developer, with practical experience in project managment. Devouted to functional programming and information technology.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- Header For small screens -->
+                <!-- Header For big screens -->
+                <div class="visible-lg-block visible-md-block">
+                    <nav>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="navbar-brand pull-left"><span style="color: #B27E3D;">Az</span>iz</div>
+                            </div>
+                            <div class="col-md-8">
+                                <ul class="navigation list-inline list-unstyled pull-right">
+                                    <li class="active">About</li>
+                                    <li data-value="port">Portfolio</li>
+                                    <li data-value="cont">Contact</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <section>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="box-info pull-left">
+                                    <ul class="list-unstyled">
+                                        <li><span>Name & Surname</span>: Abdelaziz Abdelioua</li>
+                                        <li><span>Job</span>: Student</li>
+                                        <li><span>Field</span>: Information Technology</li>
+                                        <li><span>About me</span>
+                                            <p class="text-justify">Back-end web developer, with practical experience in project managment. Devouted to functional programming and information technology.</p>
+                                        </li>
+                                    </ul>
+                                    <div class="col-md-12">
+                                        <div class="social"> <a href="https://github.com/azizcruz" target="_blank"><span><i class="fa fa-github fa-2x"></i></span></a> <a href="http://codepen.io/azizlioua/" target="_blank"><span><i class="fa fa-codepen fa-2x"></i></span></a>                                            <a href="https://www.facebook.com/abdelaziz.abdellioua" target="_blank"><span><i class="fa fa-facebook-official fa-2x"></i></span></a> <a href="https://www.freecodecamp.com/azizcruz" target="_blank"><span><i class="fa fa-free-code-camp fa-2x"></i></span></a>                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="personal-img pull-right"> <img src="images/02.jpeg" alt="profile image" class="img-thumbnail img-responsive"> </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- Header For big screens -->
+            </div>
+        </div>
+    </header>
+    <!--End Header-->
+    <!--Start Portfolio-->
+    <section id="port">
+        <div class="container">
+            <div class="port">
+                <h1 class="text-center text-uppercase">Portfolio</h1>
+                <div class="img-box col-xs-12 col-md-6">
+                    <div class="img-overlay">
+                        <h1>Flexbile</h1></div><img src="/images/03.jpg"> </div>
+                <div class="img-box col-xs-12 col-md-6">
+                    <div class="img-overlay">
+                        <h1>Secure</h1></div> <img src="/images/04.jpg"> </div>
+                <div class="img-box col-xs-12 col-md-6">
+                    <div class="img-overlay">
+                        <h1>Beauty</h1></div> <img src="/images/05.jpg"> </div>
+                <div class="img-box col-xs-12 col-md-6">
+                    <div class="img-overlay">
+                        <h1>Strength</h1></div> <img src="/images/06.jpg"> </div>
+                <div class="img-box col-xs-12 col-md-6">
+                    <div class="img-overlay">
+                        <h1>Simplicity</h1></div> <img src="/images/07.jpg"> </div>
+                <div class="img-box col-xs-12 col-md-6">
+                    <div class="img-overlay">
+                        <h1>Interaction</h1></div> <img src="/images/08.jpg"> </div>
+            </div>
+        </div>
+    </section>
+    <!--End Portfolio-->
+    <!--Start HR-->
+    <div class="container">
+        <div class="row">
+            <hr class="simple-hr"> </div>
+    </div>
+    <!--End HR-->
+    <!--Start Contact-->
+    <section id="cont">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-7">
+                    <div class="contact">
+                        <h1 class="text-center text-uppercase">Contact me</h1>
+                        <div class="form">
+                            <form>
+                                <input type="text" name="name" class="form-control" placeholder="Name" />
+                                <input type="email" name="email" class="form-control" placeholder="Email">
+                                <input type="text" name="phone" class="form-control" placeholder="phone number" />
+                                <textarea name="message" class="form-control" placeholder="Message"></textarea>
+                                <button type="submit" class="btn btn-block btn-primary">SEND</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- This block can only be seen on small screens -->
+                <div class="col-xs-12 visible-xs-block visible-sm-block text-center social-media-small">
+                    <div class="social"> <a href="https://github.com/azizcruz" target="_blank"><span><i class="fa fa-github fa-2x"></i></span></a> <a href="http://codepen.io/azizlioua/" target="_blank"><span><i class="fa fa-codepen fa-2x"></i></span></a> <a href="https://www.facebook.com/abdelaziz.abdellioua"
+                            target="_blank"><span><i class="fa fa-facebook-official fa-2x"></i></span></a> <a href="https://www.freecodecamp.com/azizcruz" target="_blank"><span><i class="fa fa-free-code-camp fa-2x"></i></span></a> </div>
+                </div>
+                <!-- This block can only be seen on small screens -->
+                <!-- This Envelope Apear only on big screens-->
+                <div class="col-md-5 visible-md-block visible-lg-block">
+                    <div class="envelope text-center"> <i class="fa fa-envelope-o"></i> </div>
+                </div>
+                <!-- This Envelope Apear only on big screens-->
+            </div>
+        </div>
+    </section>
+    <!--End Contact-->
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-8">
+                    <h3 class="text-uppercase" style="font-weight: bold">About This Page</h3>
+                    <p>Made with <i class="fa fa-coffee"></i> and <i class="fa fa-heart"></i> then <i class="fa fa-code"></i></p>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo text-uppercase text-center visible-md-block visible-lg-block" style="margin-top: 5px;">aziz</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copy">
+        <p class="text-center">All rights are reserved &copy;, <span class="text-uppercase">Abdelaziz Abdelioua</span></p>
+    </div>
+    <!-- End Footer -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

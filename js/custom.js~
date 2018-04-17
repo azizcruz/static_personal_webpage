@@ -1,0 +1,55 @@
+$(document).ready(function() {
+	//Dynamic active class
+	$("header nav ul li").click(function() {
+		$(this).addClass("active").siblings().removeClass("active");
+	});
+
+	/*//Smooth scrolldown
+    $("header nav ul li").click(function () {
+        $("body").animate({
+            scrollTop: $("#" + $(this).data("value")).offset().top
+        }, 1000);
+    });*/
+
+	//Display and hide GoTop
+	var maxTop = $("#port").offset().top;
+	$(window).scroll(function() {
+		if ($(window).scrollTop() >= maxTop) {
+			$("#goTop").fadeIn(500);
+		} else {
+			$("#goTop").fadeOut(500);
+		}
+	});
+
+	//GoTop
+	$("#goTop").click(function() {
+		$("html, body").animate({
+			scrollTop: 0
+		}, 1000);
+	});
+
+
+	// Fix the header content in small screens
+	if($(window).width() <= 1024){
+		$("body").css({
+			marginTop: "155px"
+		});
+	}
+
+	// Dynamic active nav list element with scrolling
+	var port = $("#port").offset().top;
+	var cont = $("#cont").offset().top;
+
+		 $(window).scroll(function () {
+
+		 	console.log($(window).scrollTop());
+
+		 	if($(window).scrollTop() >= port){
+				$("#port").addClass("active").siblings().removeClass("active");
+		 } else if($(window).scrollTop() >= cont){
+				$("#cont").addClass("active").siblings().removeClass("active");
+		 } else {
+				$("header nav ul li:first-of-type").addClass("active").siblings().removeClass("active");
+		 }
+		 });
+});
